@@ -1,5 +1,6 @@
 package gitfighter;
 
+import java.util.Base64;
 import java.util.Random;
 
 public class Main {
@@ -9,7 +10,9 @@ public class Main {
         System.out.println("Hello, World!");
 
         for (int i = 0; i < 10; i++) {
-            System.out.println(rand.nextInt(100));
+            var arr = new byte[25];
+            rand.nextBytes(arr);
+            System.out.println(Base64.getEncoder().withoutPadding().encodeToString(arr));
         }
     }
 }
