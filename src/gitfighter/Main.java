@@ -9,6 +9,10 @@ public class Main {
         var rand = new Random();
         System.out.println("Hello, World!!!");
 
+        printNumbers(rand);
+    }
+
+    private static void printNumbers(Random rand) {
         for (int i = 0; i < 10; i++) {
             var arr = new byte[50];
             rand.nextBytes(arr);
