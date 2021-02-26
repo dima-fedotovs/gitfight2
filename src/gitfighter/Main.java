@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Hillo, World!!!");
 
         for (int i = 0; i < 10; i++) {
-            var arr = new byte[25];
+            var arr = new byte[50];
             rand.nextBytes(arr);
             System.out.println(Base64.getEncoder().withoutPadding().encodeToString(arr));
         }
