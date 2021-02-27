@@ -12,6 +12,7 @@ public class Main {
         System.out.println("2 - Hello, World!!!");
         System.out.println("3 - Hello, World!!!");
         System.out.println("4 - Hello, World!!!");
+        System.out.println("5 - Hello, World!!!");
 
         printNumbers(rand);
     }
