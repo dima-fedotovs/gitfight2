@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         var rand = new Random();
         System.out.println("Hello, World!!!");
+        System.out.println("1 - Hello, World!!!");
 
         printNumbers(rand);
     }
