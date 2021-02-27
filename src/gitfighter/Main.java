@@ -14,6 +14,8 @@ public class Main {
         System.out.println("4 - Hello, World!!!");
         System.out.println("5 - Hello, World!!!");
         System.out.println("6 - Hello, World!!!");
+        System.out.println("7 - Hello, World!!!");
+        System.out.println("8 - Hello, World!!!");
 
         printNumbers(rand);
     }
