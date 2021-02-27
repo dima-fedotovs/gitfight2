@@ -9,6 +9,7 @@ public class Main {
         var rand = new Random();
         System.out.println("Hello, World!!!");
         System.out.println("1 - Hello, World!!!");
+        System.out.println("2 - Hello, World!!!");
 
         printNumbers(rand);
     }
