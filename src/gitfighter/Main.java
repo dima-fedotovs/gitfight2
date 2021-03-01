@@ -18,6 +18,7 @@ public class Main {
         System.out.println("8 - Hello, World!!!");
 
         printNumbers(rand);
+        System.out.println("9 - rebase test in master");
     }
 
     private static void printNumbers(Random rand) {
