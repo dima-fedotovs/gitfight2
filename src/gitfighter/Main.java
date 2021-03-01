@@ -16,6 +16,7 @@ public class Main {
         System.out.println("6 - Hello, World!!!");
         System.out.println("7 - Hello, World!!!");
         System.out.println("8 - Hello, World!!!");
+        System.out.println("9 - change in rebase_test branch");
 
         printNumbers(rand);
         System.out.println("9 - rebase test in master");
