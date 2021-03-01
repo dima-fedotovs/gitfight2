@@ -20,6 +20,7 @@ public class Main {
 
         printNumbers(rand);
         System.out.println("9 - rebase test in master");
+        System.out.println("very useful change");
     }
 
     private static void printNumbers(Random rand) {
